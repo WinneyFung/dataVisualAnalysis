@@ -6,6 +6,8 @@ import ChineseIndex from '@/pages/ChineseIndex'
 import MyAnaly from '@/pages/myFilmAnaly/myAnaly'
 import GenresOfSize from '@/pages/myFilmAnaly/filmGenresAnaly/genresOfSize'
 import FilmGenresAvg from '@/pages/myFilmAnaly/filmGenresAnaly/FilmGenresAvg'
+import FilmDirector from '@/pages/myFilmAnaly/filmDirector/directors'
+
 Vue.use(Router)
 
 export default new Router({
@@ -39,6 +41,11 @@ export default new Router({
                     path:'filmGenresAvg',
                     name:FilmGenresAvg,
                     component:FilmGenresAvg
+                },
+                {
+                    path:'filmDirector',
+                    name:FilmDirector,
+                    component:FilmDirector
                 }
             ]
         }
